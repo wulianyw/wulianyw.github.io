@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0;  minimum-scale=1.0; maximum-scale=1.0">
+		<title>{pboot:pagetitle}</title>
+    	<meta name="keywords" content="{pboot:pagekeywords}">
+	    <meta name="description" content="{pboot:pagedescription}">
+		<link rel="stylesheet" href="/template/default/html/css/style.css">
+	</head>
+	<body>
+		<div class="topdh">
+			<span><a href="">首页</a></span><span> > 物恋yw APP下载</span>
+		</div>
+		
+		<div class="content">
+			<div class="topbj">
+				<div class="toptext">
+					物恋yw是您身边专业的二手电商，您想要的真实都在这里，享受看得见的透明交易，正常的爱好应该更轻松，是时候选择懂你的二手电商！致力于为广大爱好者提供一个安全，快捷，高品质的真实交易渠道，让自然的兴趣回到阳光下。
+				</div>
+				<div class="topcontent">
+					<img src="/template/default/html/images/top.png">
+					<div class="toptext1">
+						<p>优质的商家</p>
+						<p>您想要的这里都有</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="list firstlist">
+				<div class="listpic">
+					<img src="/template/default/html/images/t1.png">
+				</div>
+				<div class="listtext firstlisttext">
+					<h3>首页</h3>
+					<p>推荐的优质商家</p>
+				</div>
+			</div>
+			<div class="list second">
+			    <div class="listpic">
+				 <img src="/template/default/html/images/t2.png">
+				</div>
+				<div class="listtext">
+					<h3>动态</h3>
+					<p>发布动态互动</p>
+				</div>
+			</div>
+			<div class="list lastlist">
+				<div class="listpic">
+				 <img src="/template/default/html/images/t3.png">
+				</div>
+				<div class="listtext">
+					<h3>写真</h3>
+					<p>解锁查看写真视频及相册</p>
+				</div>
+			</div>
+		</div>
+		
+
+
+		
+		<div class="foot">
+			<div class="about">
+				<p>关于物恋yw 你想知道的</p>
+				<p class="p1"><a href="javascript:browserRedirect();">下载APP查看更多></a></p>
+			</div>
+			<p><span>客服微信：{label:addweixin}</span></p>
+			<p class="p2"><span><img src="/template/default/html/images/tb.png"></span>温馨提示：安全之弦须紧绷，防范网络欺诈，从你我做起。</p>
+		</div>
+		
+		
+		<div class="down">
+			<div class="btn btnsecond">
+				<a href="{label:anzhuo}"><span><img src="/template/default/html/images/az.png"></span>安卓下载</a>
+			</div>
+			<div class="btn btnsecond">
+				<a href="{label:pingguo}"><span><img src="/template/default/html/images/pg.png"></span>IOS下载</a>
+			</div>	
+		</div>
+		
+		
+<script>
+ function browserRedirect() {
+    var sUserAgent = navigator.userAgent.toLowerCase();
+    var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+    var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+    var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+    var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+    var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+    var bIsAndroid = sUserAgent.match(/android/i) == "android";
+    var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+    var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+     if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsCE || bIsWM ){
+        window.location.href="{label:pingguo}";  <!-- 苹果端 -->
+    } else {
+        window.location.href="{label:anzhuo}";
+    }
+}
+</script>		
+		
+		
+	</body>
+</html>
