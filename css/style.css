@@ -1,0 +1,285 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-size: 100% 100%;
+	background: url(../images/bj.png);
+	background-size: cover;
+	color: white;
+}
+
+img {
+	max-width: 100%;
+	font-size: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+.topdh{
+	background: rgba(255, 255, 255, 0.25);
+	padding: 20px 3%;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.topdh a{
+	color: white;
+}
+
+.toptext{
+	font-size: 14px;
+	line-height: 1.6rem;
+}
+
+.topcontent{
+	position: relative;
+	margin: 1rem 0px 2rem 0px;
+}
+
+.toptext1{
+	position: absolute;
+	top: 35%;
+	left: 0;
+	right: 0;
+	font-size: 24px;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: center;
+	line-height: 2.2rem;
+}
+
+
+
+.content{
+	margin: 2.5rem 1.5rem;
+}
+
+.list{
+	display: flex;
+	margin-bottom: 3.5rem;
+	align-items: center;
+}
+
+.listpic{
+	width: 50%;
+}
+
+.listtext{
+	padding-left: 1rem;
+	width: 50%;
+	background-size: 100%;
+	background-position: top right;	
+}
+
+.listtext h3{
+	font-size: 2rem;
+	padding-bottom: 1.6rem;
+	margin-bottom: 1.6rem;
+	border-bottom: white 5px solid;
+	display: inline-block;
+}
+
+.firstlisttext h3{
+	border-bottom: none;
+	padding-bottom: 2rem;
+	margin-bottom: 2rem;
+}
+
+.listtext p{
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+.second{
+	flex-direction: row-reverse;
+}
+
+
+.firstlist{
+	position: relative;
+}
+
+.lastlist{
+	margin-bottom: 0px;
+}
+
+.down{
+    text-align: center;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    bottom: 2%;
+}
+
+
+.btn{
+	background: #FF75B3;
+	border-radius: 2.3rem;
+	width: 42%;
+	border: #f8b0d1 5px solid;
+}
+
+.btn a{
+	display: inline-block;
+	height: 2.6rem;
+	line-height: 2.6rem;
+	color: white;
+}
+
+.about{
+	background: rgba(255, 255, 255, 0.3);
+	padding: 15px 5%;
+	margin-bottom: 1.5rem;
+}
+
+.about p{
+	text-align: left;
+	font-size: 14px;
+	color: white;
+}
+
+p.p1{
+	text-align: center;
+	padding-top: 1rem;
+}
+
+p.p1 a{
+	color: white;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btnsecond{
+	margin-top: 1rem;
+}
+
+.btnsecond img{
+	height: 1.5rem;
+	vertical-align: text-top;;
+	padding-right: 0.3rem;
+}
+
+.question{
+	background-color: #f3f3f3;
+	padding: 2rem 0px 1rem 0.4rem;
+}
+
+.question h1{
+	text-align: center;
+	font-size: 1rem;
+	padding-bottom: 1rem;
+}
+
+.qlist{
+	background: white;
+	border-radius: 0.5rem;
+	margin: 0 auto;
+	width: 94%;
+	margin-bottom: 1rem;
+}
+
+.qlisttitle,.qcontent{
+	padding: 0rem 1rem;
+}
+
+.qlisttitle{
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+}
+
+img.tbpic{
+	width: 1.6rem;
+	height: 1.6rem;
+	padding-right: 0.6rem;
+}
+
+p.p1{
+	color: #333333;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 1px;
+}
+
+p.p2{
+	font-size: 12px;
+	color: #999999;
+}
+
+.qcontent{
+	font-size: 14px;
+	color: #666666;
+	padding-bottom: 1rem;
+}
+
+.foot{
+	padding: 1.5rem 0;
+	text-align: center;
+	font-size: 14px;
+}
+
+.foot img{
+	height: 1.5rem;
+}
+
+img.sp1{
+	height: 2rem;
+}
+
+.foot span{
+	vertical-align: middle;
+	padding-right: 0.2rem;
+}
+
+p.p2{
+	font-size: 12px;
+	color: white;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .embtable td{
+		height: 50px;
+		line-height: 50px;
+	}
+}
